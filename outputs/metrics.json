@@ -1,0 +1,26 @@
+{
+  "ticker": "AAPL",
+  "source_file": "dataset/AAPL.csv (copied byte-for-byte from D:/Stocks/aapl.us.txt)",
+  "observations": 8364,
+  "data_start": "1984-09-07",
+  "data_end": "2017-11-10",
+  "test_start": "2012-11-19",
+  "test_end": "2017-11-10",
+  "epochs_run": 19,
+  "training_mae_scaled": 0.03684505447745323,
+  "validation_mae_scaled": 0.23989737033843994,
+  "training_mae_usd": 0.8964213844586537,
+  "validation_mae_usd": 5.836580672675371,
+  "gru": {
+    "MAE": 45.562378062075574,
+    "RMSE": 52.16203397750241,
+    "MSE": 2720.877788670116,
+    "MAPE_percent": 41.72897109527804
+  },
+  "naive_persistence": {
+    "MAE": 1.041674043511053,
+    "RMSE": 1.4845097117473047,
+    "MSE": 2.2037690842720656,
+    "MAPE_percent": 1.0813285803684738
+  }
+}
